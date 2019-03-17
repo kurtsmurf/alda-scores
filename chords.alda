@@ -1,0 +1,31 @@
+(tempo! 90)
+
+midi-steel-drums: (quant 30) (vol 50)
+<b8>/e/g <b8.>/e/g <b8>/e/g <b8>/e/g <b8.>/e/g <b8>/e/g <b8>/e/g |
+c8/e/a c8./e/a c8/e/a c8/e/a c8./e/a c8/e/a c8/e/a |
+c8/f/a c8./f/a c8/f/a c8/f/a c8./f/a c8/f/a c8/f/a |
+<b8>/f/a- <b8.>/f/a- <b8>/f/a- <b8>/f/a- <b8.>/f/a- <b8>/f/b- <b8>/f/a- |
+
+midi-acoustic-bass: o3
+c1 < a1 d1 g1
+
+# midi-piccolo: (vol 50) o4
+# g2. > d4 c2. < g4 f2. a4 b2 a-2
+
+midi-celesta: (vol 50) (quant 30)
+  o5 e < b g e > c < a e c a f c < a > a- f < b a-
+
+midi-synth-brass-1: (quant 30) o4
+r8. <b8>/e/g <b8>/e/g r16 r2 |
+r8. c8/e/a c8/e/a r16 r2 |
+r8. c8/f/a c8/f/a r16 r2 |
+r8. <b8>/f/a- <b8>/f/a- r16 r2 |
+
+midi-percussion: (vol 60)
+V1: o1
+b8. b16 b4 b8. b16 b4 b8. b16 b4 b8. b16 b4 b8. b16 b4 b8. b16 b4 b8. b16 b4 b8. b16 b4
+V2: o2
+d+8 d+8. d+8 d+8 d+8. d+8 d+8 |
+d+8 d+8. d+8 d+8 d+8. d+8 d+8 |
+d+8 d+8. d+8 d+8 d+8. d+8 d+8 |
+d+8 d+8. d+8 d+8 d+8. d+8 d+8 |
