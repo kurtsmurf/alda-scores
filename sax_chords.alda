@@ -1,0 +1,23 @@
+(tempo! 60)
+[
+  midi-synth-pad-choir:
+    (quant 99)
+    o3 d1/f/a/>e
+    o3 c1/f/a/>f
+    o3 b-1/f/a/>f
+    o3 e/g+/>d/g
+    o3 f/a/>d/g+
+    o3 f/a/>f/a
+    o3 d/g/>f/a
+    o3 d/g/>f/b
+
+  midi-bassoon:
+    o2 d2 d2
+    o2 c2 c2
+    o2 < b-2 b-2
+    o2 e2 e2
+    o2 f2 f2
+    o2 d2 d2
+    o2 g2 g2
+    o2 g2 g2
+] * 2
