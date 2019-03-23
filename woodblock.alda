@@ -1,0 +1,22 @@
+(tempo! 90)
+
+midi-woodblock:
+  (vol 70)
+  [ o7  c32 e- g8. g8. g8. g-8 f32 f32 e16. e-16.
+  c32 e- g8. g8. g8. g-16. f16. e16. e-16.
+  c32 e- g8. g8. g8. g-8 f32 f32 e16. e-16.
+  c32 e- g8. g8. g8. g-16. f16. e16. e-16. ] * 2
+
+midi-synth-drum:
+  r16 [ c ] * 16
+
+midi-percussion:
+  r16 [ c8 ] * 32
+
+  [ o2 c2 c+2~8 c4. c+2 ] * 2
+
+midi-bass-slap:
+  V1:
+  o2 r16 [c8. c8. c8. c4 a8.] * 8
+  V2:
+  o1 r16 [c8. c8. c8. c4 a8.] * 8
